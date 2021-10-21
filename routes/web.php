@@ -16,3 +16,13 @@ use Illuminate\Support\Facades\Route;
 Route::get('/', function () {
     return view('welcome');
 });
+
+Route::get('/Dashboard', function() {
+    return view('appadmin.Dashboard');
+});
+
+Route::get('/Dashboard', function() {
+    return view('appadmin.content');
+});
+
+
